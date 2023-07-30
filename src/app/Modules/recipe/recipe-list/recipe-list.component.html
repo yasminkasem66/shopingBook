@@ -1,0 +1,17 @@
+<div class="row">
+    <div class="col-xs-12 my-3">
+        <button type="button" class="btn btn-primary">Add Recipe</button>
+    </div>
+</div>
+<!-- <hr/> -->
+<div class="row">
+    <div class="col-lg-3 col-md-4 col-sm-2 mb-2" *ngFor="let recipe of recipes$ |async as recipesList;let i=index">
+        <div type="button" class="btn btn-transparent border-0 bg-transparent" data-bs-toggle="modal" [attr.data-bs-target]="'#exampleModal'+i">
+            <app-recipe-item [recipe]="recipe"></app-recipe-item>
+        </div>
+        <div class="modal fade" [id]="'exampleModal'+i" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <app-recipe-detail [recipe]="recipe"></app-recipe-detail>
+        </div>
+    </div>
+</div>

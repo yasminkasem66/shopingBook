@@ -1,0 +1,7 @@
+<div class="card mb-2" style="width: 18rem;">
+    <img [src]="recipe.strDrinkThumb" class="card-img-top img-responsive" alt="..."  >
+    <div class="card-body">
+      <p class="card-text">{{recipe.originalName}}</p>
+      <p class="card-text">{{recipe.strInstructions| slice:0:60}}</p>
+    </div>
+  </div>
