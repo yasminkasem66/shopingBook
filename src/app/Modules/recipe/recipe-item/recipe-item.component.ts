@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Recipes } from 'src/app/@AppService/models/recipes';
+import { RecipesModel } from 'src/app/@AppService/models/recipes';
+import { initFlowbite } from 'flowbite';
 
 @Component({
   selector: 'app-recipe-item',
@@ -7,11 +8,13 @@ import { Recipes } from 'src/app/@AppService/models/recipes';
   styleUrls: ['./recipe-item.component.scss']
 })
 export class RecipeItemComponent implements OnInit {
-  @Input() recipe!:Recipes;
+  @Input() recipe!:RecipesModel;
 
 
   ngOnInit(): void {
    console.log(this.recipe);
+   initFlowbite();
+
   }
   
 }

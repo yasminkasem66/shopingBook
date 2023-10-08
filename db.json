@@ -753,11 +753,6 @@
       "strInstructionsFR": null,
       "strInstructionsIT": "Incorpora un bicchiere adatto, senza ghiaccio.\r\nCrema in cima se lo si desidera.\r\nServito direttamente.",
       "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/vyrurp1472667777.jpg",
-      "strIngredient1": "Kahlua",
-      "strIngredient2": "Baileys irish cream",
-      "strIngredient3": "Frangelico",
-      "strIngredient4": "Coffee",
-      "strIngredient5": "Cream",
       "strMeasure1": "1 cl ",
       "strMeasure2": "1 cl ",
       "strMeasure3": "1 1/2 ",
@@ -781,10 +776,6 @@
       "strInstructionsFR": null,
       "strInstructionsIT": "Shakerare tutti gli ingredienti con ghiaccio e filtrare il contenuto in un bicchiere da cocktail. Cospargere di noce moscata e servire.",
       "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/0clus51606772388.jpg",
-      "strIngredient1": "Gin",
-      "strIngredient2": "Creme de Cacao",
-      "strIngredient3": "Light cream",
-      "strIngredient4": "Nutmeg",
       "strMeasure1": "1/2 oz ",
       "strMeasure2": "1/2 oz white ",
       "strMeasure3": "2 oz ",
@@ -809,9 +800,6 @@
       "strInstructionsFR": null,
       "strInstructionsIT": "Mescolare e riempire con acqua di seltz. Bevuto dai finlandesi in una giornata di sole in qualsiasi momento dell'anno e del giorno.",
       "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/7dkf0i1487602928.jpg",
-      "strIngredient1": "Vodka",
-      "strIngredient2": "Lime juice",
-      "strIngredient3": "Soda water",
       "strMeasure1": "4 cl ",
       "strMeasure2": "1 dash ",
       "strCreativeCommonsConfirmed": "No",
@@ -859,10 +847,6 @@
       "strInstructionsFR": null,
       "strInstructionsIT": "Versare Campari e vermut su ghiaccio in un bicchiere, aggiungere un goccio di acqua di seltz e guarnire con mezza fetta d'arancia.",
       "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/709s6m1613655124.jpg",
-      "strIngredient1": "Campari",
-      "strIngredient2": "Sweet Vermouth",
-      "strIngredient3": "Lemon peel",
-      "strIngredient4": "Orange peel",
       "strMeasure1": "1 oz ",
       "strMeasure2": "1 oz red ",
       "strMeasure3": "Twist of ",
@@ -946,7 +930,7 @@
       "Ingredient": [
         "Orange juice",
         "Apple juice",
-"Maraschino cherry",
+        "Maraschino cherry",
         "Grapefruit juice"
       ]
     },
@@ -957,7 +941,7 @@
         "Orange juice",
         "Cranberry juice",
         "Club soda"
-       ]
+      ]
     },
     {
       "idDrink": "17835",
@@ -1040,6 +1024,52 @@
         "Grenadine",
         "Orange juice",
         "Pineapple juice"
+      ]
+    },
+    {
+      "idDrink": "13162",
+      "Ingredient": [
+        "Kahlua",
+        "Baileys irish cream",
+        " Frangelico",
+        "Coffee",
+        "Cream"
+      ]
+    },
+    {
+      "idDrink": "11014",
+      "Ingredient": [
+        "Gin",
+        "Creme de Cacao",
+        "Light cream",
+        "Nutmeg"
+      ]
+    },
+    {
+      "idDrink": "12756",
+      "Ingredient": [
+        "Vodka",
+        "Lime juice",
+        "Soda water"
+      ]
+    },
+    {
+      "idDrink": "11021",
+      "Ingredient": [
+        "Dry Vermouth",
+        "Bourbon",
+        "Blackberry brandy",
+        "Lemon juice",
+        "Lemon peel"
+      ]
+    },
+    {
+      "idDrink": "15941",
+      "Ingredient": [
+        "Campari",
+        "Sweet Vermouth",
+        "Lemon peel",
+        "Orange peel"
       ]
     }
   ]

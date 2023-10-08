@@ -1,4 +1,4 @@
-export interface Recipes {
+export interface RecipesModel {
     description: string;
     aisle: string;
     amount: string;

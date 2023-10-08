@@ -1,7 +1,8 @@
 import { Component, Input } from '@angular/core';
 import { Observable } from 'rxjs';
 import { RecipesService } from 'src/app/@AppService/Services/recipes.service';
-import { Recipes } from 'src/app/@AppService/models/recipes';
+import { RecipesModel } from 'src/app/@AppService/models/recipes';
+import { initFlowbite } from 'flowbite';
 
 @Component({
   selector: 'app-recipe-list',
@@ -9,12 +10,11 @@ import { Recipes } from 'src/app/@AppService/models/recipes';
   styleUrls: ['./recipe-list.component.scss']
 })
 export class RecipeListComponent {
-  //  @Input() recipes!: Recipes[];
 
-   recipes$!:Observable< Recipes[]>;
+   recipes$:Observable< RecipesModel[]>=this.recipesService.getRecipes();
 
    constructor(private recipesService:RecipesService){
-    this.recipes$=this.recipesService.getRecipes();
+
    }
  
 

@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { Observable } from 'rxjs';
 import { RecipesService } from 'src/app/@AppService/Services/recipes.service';
-import { Recipes } from 'src/app/@AppService/models/recipes';
+import { RecipesModel } from 'src/app/@AppService/models/recipes';
 
 @Component({
   selector: 'app-shopping-list',
@@ -9,7 +9,7 @@ import { Recipes } from 'src/app/@AppService/models/recipes';
   styleUrls: ['./shopping-list.component.scss']
 })
 export class ShoppingListComponent {
- ingredients$!:Observable< Recipes[]>;
+ ingredients$!:Observable< RecipesModel[]>;
 
 constructor(private recipesService:RecipesService){
  this.ingredients$=this.recipesService.getRecipes();
