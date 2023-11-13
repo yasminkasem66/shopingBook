@@ -7,7 +7,7 @@
           <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{{recipe.originalName}}</h5>
       </a>
       <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">{{recipe.strInstructions| slice:0:60}}</p>
-      <div  [attr.data-modal-target]="recipe.idDrink"  [attr.data-modal-toggle]="recipe.idDrink"  type="button" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 align-bottom"  >
+      <div  [attr.data-modal-target]="recipe.idDrink"  [attr.data-modal-toggle]="recipe.idDrink"  type="button" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white align-bottom bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"  >
            more {{recipe.idDrink}}
            <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
               <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
@@ -22,17 +22,3 @@
   </div>
   </div>
 </div>
-
-
-<!-- <div class="row">
-  <div class="col-lg-3 col-md-4 col-sm-2 mb-2" *ngFor="let recipe of recipes$ |async as recipesList;let i=index">
-      <div type="button" class="btn btn-transparent border-0 bg-transparent" data-bs-toggle="modal" [attr.data-bs-target]="'#exampleModal'+i">
-          <app-recipe-item [recipe]="recipe"></app-recipe-item>
-      </div>
-      <div class="modal fade" [id]="'exampleModal'+i" tabindex="-1" aria-labelledby="exampleModalLabel"
-          aria-hidden="true">
-          <app-recipe-detail [recipe]="recipe"></app-recipe-detail>
-      </div>
-  </div>
-</div>
-   -->

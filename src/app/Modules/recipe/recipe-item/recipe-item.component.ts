@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { RecipesModel } from 'src/app/@AppService/models/recipes';
+import { RecipesModel } from 'src/app/@AppService/models/recipes-model';
 import { initFlowbite } from 'flowbite';
 
 @Component({

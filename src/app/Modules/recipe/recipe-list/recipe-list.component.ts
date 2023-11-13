@@ -1,7 +1,7 @@
 import { Component, Input } from '@angular/core';
 import { Observable } from 'rxjs';
 import { RecipesService } from 'src/app/@AppService/Services/recipes.service';
-import { RecipesModel } from 'src/app/@AppService/models/recipes';
+import { RecipesModel } from 'src/app/@AppService/models/recipes-model';
 import { initFlowbite } from 'flowbite';
 
 @Component({

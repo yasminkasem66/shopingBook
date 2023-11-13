@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { RecipesModel } from '../models/recipes';
+import { RecipesModel } from '../models/recipes-model';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { API_URL, ServicesUrls } from '../ServiceUrl';
